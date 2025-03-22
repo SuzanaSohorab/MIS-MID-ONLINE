@@ -130,6 +130,7 @@ li:hover{
 /*        page 2 NAV BAR   */
 
 .page2Nav{
+    margin: 50px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
