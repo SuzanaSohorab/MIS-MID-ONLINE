@@ -1,0 +1,59 @@
+/*shared style*/
+.displayFlex{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    background-color: rgba(246, 235, 218, 1);
+
+}
+
+
+
+
+
+
+/* page 1
+            NAV BAR*/
+
+.navBar{
+    display: flex;
+    height: 40;
+    align-items: center;
+
+   
+}
+ul li{
+    list-style: none;
+    font-size: 24px;
+    width: 200px;
+    justify-content: space-around;
+    font-weight: bold; 
+
+}
+li:hover{
+    opacity: 50%;
+    color: brown;
+}
+
+.cappucinioBtn{
+    height: 40px;
+    width: 200px;
+    color: grey;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+
+/*Home section*/
+
+
+
+
+
+
+
+
+
+
