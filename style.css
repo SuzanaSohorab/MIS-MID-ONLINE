@@ -17,8 +17,22 @@ header{
 .title{
     font-size: 30px;
 }
+/*           footer       */
+.footerImg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.footer{
+    margin-top: 50px;
+}
+.howToDeliver{ 
+    margin-left: 150px;
+    font-size: 50px;
+}
 
-
+/*shared style*/
 
 
 
@@ -87,6 +101,7 @@ li:hover{
 .aboutUs{
    gap: 350px;
    align-items: center;
+   padding: 30px ;
 
 }
 .contactBtn{
@@ -111,6 +126,108 @@ li:hover{
     width: 200px;
     
 }
+
+/*        page 2 NAV BAR   */
+
+.page2Nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.dropDown{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.dropDownMenu{
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+.dropDownMenu li{
+    padding: 8px;
+    cursor: pointer;
+}
+.dropDown:hover .dropDownMenu{
+    display: block;
+}
+.dropDownMenu li:hover{
+    background-color: bisque;
+}
+.dropDownBtn{
+    height: 38px;
+    width: 142px;
+    background-color: rgba(47, 33, 5, 1);
+    color: rgba(244, 174, 38, 1);
+    font-size: 20px;
+    border-radius: 34px;
+    text-align: center;
+
+}
+/*           CARDS       */
+.cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 50px;
+    margin-left: 100px;
+    padding-bottom: 150px;
+    
+}
+.card{
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 3px 30px;
+    padding: 20px;
+}
+.card-img{
+    height: 226px;
+    width: 307px;
+    border-radius: 20px;
+
+    
+
+}
+.card-img-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+}
+.rating{
+    position: absolute;
+    height: 50px;
+    width: 62px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+.card-des{
+    align-items: center;
+   
+  
+    
+
+}
+.card-description{
+    font-size: 18px;
+    font-weight: bold;
+}
+.page2bg{
+   
+
+    
+}
+
+
 
 
 
