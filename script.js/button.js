@@ -10,9 +10,5 @@ document.getElementById("contactBtn").addEventListener('click',
         window.location.href= "index3.html";
 
 })
-document.getElementById("HomePage").addEventListener('click', 
-    function(){
-        console.log("button clicked")
-        window.location.href= "index1.html";
 
-})
+

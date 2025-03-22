@@ -185,8 +185,11 @@ li:hover{
     width: 400px;
     background-color: white;
     border-radius: 30px;
-    box-shadow: 0px 10px 50px;
+    box-shadow: 0px 0px 5px;
     padding: 20px;
+}
+.card1st{
+    background-color: #fcb573;
 }
 .card-img{
     height: 226px;
